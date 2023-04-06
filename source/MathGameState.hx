@@ -368,4 +368,3 @@ class MathSound
       this.looped = looped;
    }
 }
-	

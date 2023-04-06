@@ -10,7 +10,7 @@ import flixel.FlxG;
 import flixel.text.FlxText;
 import flixel.effects.FlxFlicker;
 import flixel.util.FlxSave;
-import flixel.util.FlxAxes
+import flixel.util.FlxAxes;
 
 class CompatWarningState extends MusicBeatState
 {

@@ -10,10 +10,11 @@ import flixel.FlxG;
 import flixel.text.FlxText;
 import flixel.effects.FlxFlicker;
 import flixel.util.FlxSave;
+import flixel.util.FlxAxes
 
 class CompatWarningState extends MusicBeatState
 {
-    var bg:FlxBackdrop;
+    var bg:FlxAxes;
     var warningBox:FlxText;
     var textItems:Array<FlxText> = new Array<FlxText>();
     var curSelected:Int;
@@ -24,7 +25,7 @@ class CompatWarningState extends MusicBeatState
 
     public override function create():Void
     {
-        bg = new FlxBackdrop(Paths.image('ui/checkeredBG', 'preload'), 1, 1, true, true, 1, 1);
+        bg = new FlxAxes(Paths.image('ui/checkeredBG', 'preload'), 1, 1, true, true, 1, 1);
         bg.antialiasing = true;
         add(bg);
 
